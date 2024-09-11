@@ -8,7 +8,7 @@ Visualize how recursively different files in a directory are related in an inter
 
 	1.	Save the setup.sh Script:
 	•	Copy the content of the setup.sh script into a file named setup.sh.
-	•	Save this file in the directory where you have or will place the yaml-view3.py script.
+	•	Save this file in the directory where you have or will place the visualize_files_graph.py script.
 	
     2.	Make the setup.sh Script Executable:
 	•	Open a terminal and navigate to the directory where you saved the setup.sh script.
@@ -27,7 +27,7 @@ Visualize how recursively different files in a directory are related in an inter
     5.	Run the visualize_files_graph.py Script:
 	•	Ensure that visualize_files_graph.py is in the same directory.
 	•	You can now run the visualize_files_graph.py script within the virtual environment using the following command:
-    python visualize_files_graph.py /path/to/playbook_directory /path/to/output_graph.html
+    python visualize_files_graph.py /path/to/parent_directory /path/to/output_graph.html
     
     6.	Deactivate the Virtual Environment:
 	•	After you’re done using the script, you can deactivate the virtual environment by running:
